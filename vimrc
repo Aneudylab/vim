@@ -1,10 +1,10 @@
 let &runtimepath .=",~/.vim"
 
-#execute pathogen#infect()
+"execute pathogen#infect()
 
 let mapleader= ","
 " Setting color scheme
-#colorscheme Tomorrow-Night
+"colorscheme Tomorrow-Night
 set guifont=DejaVu\ Sans\ Mono:h10
 filetype on
 filetype indent on
