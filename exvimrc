@@ -1,0 +1,15 @@
+" Excersise
+noremap <leader>- ddp
+noremap <leader>_ kddpk
+inoremap <leader><c-u> <esc>viwUea
+nnoremap <leader><c-u> viwUe
+
+nnoremap <leader>sarc :source ~/.vim/vimrc<CR>:source ~/.vim/exvimrc<CR>
+nnoremap <leader>sst :w<CR>:source %<CR>
+nnoremap <leader>eexrc :vsplit ~/.vim/exvimrc<CR>
+vnoremap <leader>" s""<esc>Pe
+nnoremap <leader>H 0
+nnoremap <leader>L $
+
+iabbrev sprop public string Property { get; set;}
+iabbrev my@@ aneudylab@gmail.com
