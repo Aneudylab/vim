@@ -1,5 +1,9 @@
 " ConEmu 
-if !empty($CONEMUBUILD2)
+if !empty($CMDER)
+    :hi CursorLine   cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=NONE guifg=NONE
+    :hi CursorColumn cterm=NONE ctermbg=darkblue ctermfg=NONE guibg=NONE guifg=NONE
+endif
+if !empty($CMDER2)
     "echom "Running in conemu"
     "set termencoding=utf-8
     set term=xterm

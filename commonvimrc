@@ -1,0 +1,49 @@
+let mapleader= ","
+set number
+
+" Indenting settings
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set visualbell
+set cursorline
+
+set backspace=indent,eol,start
+set laststatus=2
+
+" Searching and replacing
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+" Lines
+set nowrap
+set textwidth=79
+
+
+" Mapings
+nnoremap <leader>evrc :vsplit $MYVIMRC<cr>
+nnoremap <leader>svrc :source $MYVIMRC<cr>
+nnoremap <leader>emrc :vsplit ~/.vim/vimrc<cr>
+nnoremap <leader>smrc :source ~/.vim/vimrc<cr>
+
+nnoremap <up> <nop>
+nnoremap <left> <nop>
+nnoremap <down> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <left> <nop>
+inoremap <down> <nop>
+inoremap <right> <nop>
+inoremap jk <esc>
+inoremap <esc> <nop>
+

@@ -1,0 +1,10 @@
+"Resharper Mappings
+nnoremap <leader>rr :vsc Debug.StartWithoutDebugging<CR>
+nnoremap <leader>se :vsc View.SolutionExplorer<CR>
+nnoremap <leader>anp :vsc File.AddNewProject<CR>
+nnoremap <leader>ta :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+nnoremap <leader>tt :vsc ReSharper.ReSharper_UnitTestSessionRepeatPreviousRun<CR>
+nnoremap <leader>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
+nnoremap <leader>tx :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
+nnoremap <leader>td :vsc ReSharper.ReSharper_UnitTestDebugFromContext<CR>
+
