@@ -1,5 +1,5 @@
 @echo off
 set mypath=%~dp0
-set install=uninstall.ps1
-powershell %mypath%install
-
+set command=%mypath%uninstall.ps1
+set command=%command: =` %
+powershell %command%

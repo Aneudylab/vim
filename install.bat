@@ -1,5 +1,5 @@
 @echo off
 set mypath=%~dp0
-set install=install.ps1
-powershell %mypath%install
-
+set command=%mypath%install.ps1
+set command=%command: =` %
+powershell %command%
