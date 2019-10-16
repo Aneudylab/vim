@@ -1,7 +1,25 @@
-"Resharper Mappings
+
+"Build
+nnoremap <leader>bb :vsc Build.BuildSolution<CR>
+nnoremap <leader>bc :vsc Build.CleanSolution<CR>
+
+"Debug
 nnoremap <leader>rr :vsc Debug.StartWithoutDebugging<CR>
-nnoremap <leader>se :vsc View.SolutionExplorer<CR>
+nnoremap <leader>rd :vsc Debug.Start<CR>
+nnoremap <leader>dd :vsc Debug.ToggleBreakpoint<CR>
+
+"File
 nnoremap <leader>anp :vsc File.AddNewProject<CR>
+nnoremap <leader>aep :vsc File.AddExistingProject<CR>
+
+"View
+nnoremap <leader>se :vsc View.SolutionExplorer<CR>
+nnoremap <leader>fs :vsc View.FullScreen<CR>
+
+"Edit
+nnoremap <leader>json :vsc Edit.PasteJSONAsClasses<CR>
+
+"Resharper Mappings
 nnoremap <leader>ta :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
 nnoremap <leader>tt :vsc ReSharper.ReSharper_UnitTestSessionRepeatPreviousRun<CR>
 nnoremap <leader>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
