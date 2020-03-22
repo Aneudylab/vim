@@ -26,5 +26,13 @@ nnoremap <leader>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
 nnoremap <leader>tx :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
 nnoremap <leader>td :vsc ReSharper.ReSharper_UnitTestDebugFromContext<CR>
 
+"Navigation
+nnoremap <leader>gi :vsc ReSharper.ReSharper_GotoDeclaration<CR>
+nnoremap <leader>gb :vsc ReSharper.ReSharper_NavigateBackward<CR>
+nnoremap <leader>gf :vsc ReSharper.ReSharper_NavigateForward<CR>
+nnoremap <leader>vc :vsc View.ViewCode<CR>
+
+xnoremap <leader>em :vsc ReSharper.ReSharper_ExtractMethod<CR>
+
 nnoremap <leader>ff :vsc ReSharper.ReSharper_ReformatCode<CR>:vsc ReSharper.ReSharper_ApplyCodeStyle<CR>
 nnoremap <leader>cl :vsc ReSharper.ReSharper_CleanupCode<CR>
