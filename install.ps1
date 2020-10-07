@@ -51,6 +51,10 @@ function generate_shell_conditional_vimrc(
     $result = $result + "else`n"
     $result = $result + $cmd
     $result = $result + "endif`n"
+    $result = $result + 'if !has("gui_running")' + "`n"
+    $result = $result + $prefix +  "set t_Co=256`n"
+    $result = $result + "endif"
+
     $result
 }
 
