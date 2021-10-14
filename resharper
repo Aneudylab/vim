@@ -3,6 +3,10 @@
 nnoremap <leader>bb :vsc Build.BuildSolution<CR>
 nnoremap <leader>bc :vsc Build.CleanSolution<CR>
 
+"Tabs
+nnoremap <leader>qat :vsc File.CloseAllButThis<CR>
+nnoremap <leader>qaa :vsc Window.CloseAllDocuments<CR>
+
 "Debug
 nnoremap <leader>rr :vsc Debug.StartWithoutDebugging<CR>
 nnoremap <leader>rd :vsc Debug.Start<CR>
@@ -20,6 +24,7 @@ nnoremap <leader>fs :vsc View.FullScreen<CR>
 nnoremap <leader>json :vsc Edit.PasteJSONAsClasses<CR>
 
 "Resharper Mappings
+"Test
 nnoremap <leader>ta :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
 nnoremap <leader>tt :vsc ReSharper.ReSharper_UnitTestSessionRepeatPreviousRun<CR>
 nnoremap <leader>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
@@ -30,9 +35,25 @@ nnoremap <leader>td :vsc ReSharper.ReSharper_UnitTestDebugFromContext<CR>
 nnoremap <leader>gi :vsc ReSharper.ReSharper_GotoDeclaration<CR>
 nnoremap <leader>gb :vsc ReSharper.ReSharper_NavigateBackward<CR>
 nnoremap <leader>gf :vsc ReSharper.ReSharper_NavigateForward<CR>
+nnoremap <leader>ne :vsc ReSharper.ReSharper_GotoNextErrorInSolution<CR>
+nnoremap <leader>pe :vsc ReSharper.ReSharper_GotoPrevErrorInSolution<CR>
+nnoremap <leader>nh :vsc ReSharper.ReSharper_GotoNextHighlight<CR>
+nnoremap <leader>ph :vsc ReSharper.ReSharper_GotoPrevHighlight<CR>
 nnoremap <leader>vc :vsc View.ViewCode<CR>
 
+"Context
+nnoremap <leader>todo :vsc ReSharper.ReSharper_ShowTodoExplorer<CR>
+
+"Bookmarks
+nnoremap <leader>bmw :vsc View.BookmarkWindow<CR>
+nnoremap <leader>bmc :vsc Edit.ClearBookmarks<CR>
+nnoremap <leader>bmn :vsc Edit.NextBookmark<CR>
+nnoremap <leader>bmp :vsc Edit.PreviousBookmark<CR>
+nnoremap <leader>bmt :vsc Edit.ToggleBookmark<CR>
+
+"Misc
 xnoremap <leader>em :vsc ReSharper.ReSharper_ExtractMethod<CR>
 
+"Format
 nnoremap <leader>ff :vsc ReSharper.ReSharper_ReformatCode<CR>:vsc ReSharper.ReSharper_ApplyCodeStyle<CR>
 nnoremap <leader>cl :vsc ReSharper.ReSharper_CleanupCode<CR>

@@ -1,9 +1,12 @@
 " Setting color scheme
-colorscheme gruvbox-material
+packadd! dracula
+syntax enable
+colorscheme dracula
+"colorscheme gruvbox-material
 set guifont=Fira\ Code:h11
 filetype on
 filetype indent on
-syntax on
+"syntax on
 
 set nocompatible
 set relativenumber
