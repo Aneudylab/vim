@@ -1,0 +1,70 @@
+set relativenumber
+
+"Build
+noremap <leader>bb :action BuildSolutionAction<CR>
+noremap <leader>bc :action CleanSolutionAction<CR>
+xnoremap <leader>em :action ExtractMethod<CR>
+
+"Tabs
+nnoremap <leader>qat :action CloseAllEditorsButActive<CR>
+nnoremap <leader>qaa :action CloseAllEditors<CR>
+
+"Debug
+nnoremap <leader>rr :action Run<CR>
+nnoremap <leader>rd :action Debug<CR>
+nnoremap <leader>dd :action ToggleLineBreakpoint<CR>
+nnoremap <leader>bp :action ViewBreakpoints<CR>
+
+
+"View
+nnoremap <leader>se :action ActivateProjectToolWindow<CR>
+nnoremap <leader>ha :action HideAllWindows<CR>
+nnoremap <leader>zm :action ToggleZenMode<CR>
+nnoremap <leader>ss :action ActivateStructureToolWindow<CR>
+
+"Test
+nnoremap <leader>ta :action RiderUnitTestRunSolutionAction<CR>
+nnoremap <leader>tr :action RiderUnitTestRunContextAction<CR>
+nnoremap <leader>td :action RiderUnitTestDebugContextAction<CR>
+nnoremap <leader>te :action RiderUnitTestFocusExplorerAction<CR>
+nnoremap <leader>tp :action RiderUnitTestRepeatPreviousRunAction<CR>
+nnoremap <leader>ts :action RiderUnitTestFocusSessionAction<CR>
+
+"Navigation
+nnoremap <leader>gi :action GotoDeclaration<CR>
+nnoremap <leader>gb :action Back<CR>
+nnoremap <leader>gf :action Forward<CR>
+nnoremap <leader>ne :action ReSharperGotoNextErrorInSolution<CR>
+nnoremap <leader>pe :action ReSharperGotoPrevErrorInSolution<CR>
+nnoremap <leader>nh :action GotoNextError<CR>
+nnoremap <leader>ph :action GotoPreviousError<CR>
+
+"Documentation
+nnoremap <leader>pi :action ParameterInfo<CR>
+nnoremap <leader>sd :action QuickJavaDoc<CR>
+nnoremap <leader>ed :action ShowErrorDescription<CR>
+"Context
+nnoremap <leader>todo :action ActivateTODOToolWindow<CR>
+
+"Bookmarks
+nnoremap <leader>tb :action ToggleBookmark<CR>
+nnoremap <leader>nb :action GotoNextBookmark<CR>
+nnoremap <leader>pb :action GotoPreviousBookmark<CR>
+nnoremap <leader>sb :action ShowBookmarks<CR>
+
+"Misc
+xnoremap <leader>em :action ExtractMethod<CR>
+nnoremap <leader>co :action ActivateTerminalToolWindow<CR>
+nnoremap <leader>fu :action FindUsages<CR>
+
+"Format
+nnoremap <leader>ff :action ReformatCode<CR>
+nnoremap <leader>cl :action SilentCodeCleanup<CR>
+
+"Refactor
+nnoremap <leader>rn :action RenameElement<CR>
+
+set ideajoin
+set ideaput
+set ideamarks
+
