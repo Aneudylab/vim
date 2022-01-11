@@ -17,11 +17,14 @@ nnoremap <leader>dd :action ToggleLineBreakpoint<CR>
 nnoremap <leader>bp :action ViewBreakpoints<CR>
 
 
-"View
+"Show
 nnoremap <leader>se :action ActivateProjectToolWindow<CR>
+nnoremap <leader>sf :action SelectInProjectView<CR>
+nnoremap <leader>ss :action ActivateStructureToolWindow<CR>
+nnoremap <leader>sb :action ShowBookmarks<CR>
+
 nnoremap <leader>ha :action HideAllWindows<CR>
 nnoremap <leader>zm :action ToggleZenMode<CR>
-nnoremap <leader>ss :action ActivateStructureToolWindow<CR>
 
 "Test
 nnoremap <leader>ta :action RiderUnitTestRunSolutionAction<CR>
@@ -51,21 +54,20 @@ nnoremap <leader>todo :action ActivateTODOToolWindow<CR>
 nnoremap <leader>tb :action ToggleBookmark<CR>
 nnoremap <leader>nb :action GotoNextBookmark<CR>
 nnoremap <leader>pb :action GotoPreviousBookmark<CR>
-nnoremap <leader>sb :action ShowBookmarks<CR>
 
 "Misc
 xnoremap <leader>em :action ExtractMethod<CR>
-nnoremap <leader>co :action ActivateTerminalToolWindow<CR>
+nnoremap <leader>sc :action ActivateTerminalToolWindow<CR>
 nnoremap <leader>fu :action FindUsages<CR>
 
 "Format
 nnoremap <leader>ff :action ReformatCode<CR>
+nnoremap <leader>fp :action ReformatWithPrettierAction<CR>
 nnoremap <leader>cl :action SilentCodeCleanup<CR>
 
 "Refactor
 nnoremap <leader>rn :action RenameElement<CR>
 
 set ideajoin
-set ideaput
 set ideamarks
 
