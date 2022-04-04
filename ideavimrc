@@ -12,9 +12,11 @@ nnoremap <leader>qaa :action CloseAllEditors<CR>
 "Debug
 nnoremap <leader>rr :action Run<CR>
 nnoremap <leader>rc :action ChooseRunConfiguration<CR>
+nnoremap <leader>cc :action ActiveConfiguration<CR>
 nnoremap <leader>rd :action Debug<CR>
 nnoremap <leader>dd :action ToggleLineBreakpoint<CR>
 nnoremap <leader>bp :action ViewBreakpoints<CR>
+nnoremap <leader>ac :action RiderDebuggerApplyEncChagnes<CR>
 
 
 "Show
@@ -25,6 +27,8 @@ nnoremap <leader>sb :action ShowBookmarks<CR>
 
 nnoremap <leader>ha :action HideAllWindows<CR>
 nnoremap <leader>zm :action ToggleZenMode<CR>
+nnoremap <leader>df :action ToggleDistractionFreeMode<CR>
+nnoremap <leader>pm :action TogglePresentationMode<CR>
 
 "Test
 nnoremap <leader>ta :action RiderUnitTestRunSolutionAction<CR>
@@ -52,8 +56,8 @@ nnoremap <leader>todo :action ActivateTODOToolWindow<CR>
 
 "Bookmarks
 nnoremap <leader>tb :action ToggleBookmark<CR>
-nnoremap <leader>nb :action GotoNextBookmark<CR>
-nnoremap <leader>pb :action GotoPreviousBookmark<CR>
+nnoremap <leader>nb :action GotoNextBookmarkInEditor<CR>
+nnoremap <leader>pb :action GotoPreviousBookmarkInEditor<CR>
 
 "Misc
 xnoremap <leader>em :action ExtractMethod<CR>
