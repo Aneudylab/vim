@@ -53,6 +53,7 @@ nnoremap <leader>sd :action QuickJavaDoc<CR>
 nnoremap <leader>ed :action ShowErrorDescription<CR>
 "Context
 nnoremap <leader>todo :action ActivateTODOToolWindow<CR>
+nnoremap <leader>os :action RiderManageRecentProjects<CR>
 
 "Bookmarks
 nnoremap <leader>tb :action ToggleBookmark<CR>
