@@ -45,5 +45,4 @@ inoremap <left> <nop>
 inoremap <down> <nop>
 inoremap <right> <nop>
 inoremap jk <esc>
-inoremap <esc> <nop>
 
