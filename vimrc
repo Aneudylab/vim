@@ -1,7 +1,5 @@
 " Setting color scheme
-packadd! dracula
 syntax enable
-colorscheme dracula
 "colorscheme gruvbox-material
 set guifont=Fira\ Code:h11
 filetype on
