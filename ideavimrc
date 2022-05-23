@@ -54,6 +54,9 @@ nnoremap <leader>ed :action ShowErrorDescription<CR>
 "Context
 nnoremap <leader>todo :action ActivateTODOToolWindow<CR>
 nnoremap <leader>os :action RiderManageRecentProjects<CR>
+nnoremap <leader>nl :action RiderNuGetQuickListPopupAction<CR>
+nnoremap <leader>np :action RiderNuGetManagePackagesForCurrentProjectAction<CR>
+nnoremap <leader>pr :action AddReferenceAction<CR>
 
 "Bookmarks
 nnoremap <leader>tb :action ToggleBookmark<CR>
@@ -61,7 +64,6 @@ nnoremap <leader>nb :action GotoNextBookmarkInEditor<CR>
 nnoremap <leader>pb :action GotoPreviousBookmarkInEditor<CR>
 
 "Misc
-xnoremap <leader>em :action ExtractMethod<CR>
 nnoremap <leader>sc :action ActivateTerminalToolWindow<CR>
 nnoremap <leader>fu :action FindUsages<CR>
 
@@ -72,6 +74,7 @@ nnoremap <leader>cl :action SilentCodeCleanup<CR>
 
 "Refactor
 nnoremap <leader>rn :action RenameElement<CR>
+xnoremap <leader>em :action ExtractMethod<CR>
 
 set ideajoin
 set ideamarks
