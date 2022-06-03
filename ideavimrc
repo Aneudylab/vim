@@ -67,6 +67,13 @@ nnoremap <leader>pb :action GotoPreviousBookmarkInEditor<CR>
 nnoremap <leader>sc :action ActivateTerminalToolWindow<CR>
 nnoremap <leader>fu :action FindUsages<CR>
 
+"Markdown
+nnoremap <leader>mdex :action org.intellij.plugins.markdown.fileActions.export.MarkdownExportAction<CR>
+nnoremap <leader>mdsp :action Markdown.Layout.EditorAndPreview<CR>
+nnoremap <leader>mdhp :action Markdown.Layout.EditorOnly<CR>
+nnoremap <leader>mdrp :action Markdown.Layout.EditorOnly<CR>:action Markdown.Layout.EditorAndPreview<CR>
+
+
 "Format
 nnoremap <leader>ff :action ReformatCode<CR>
 nnoremap <leader>fp :action ReformatWithPrettierAction<CR>
