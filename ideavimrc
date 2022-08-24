@@ -66,6 +66,7 @@ nnoremap <leader>pb :action GotoPreviousBookmarkInEditor<CR>
 "Misc
 nnoremap <leader>sc :action ActivateTerminalToolWindow<CR>
 nnoremap <leader>fu :action FindUsages<CR>
+nnoremap <leader>su :action ActivateFindToolWindow<CR>
 
 "Markdown
 nnoremap <leader>mdex :action org.intellij.plugins.markdown.fileActions.export.MarkdownExportAction<CR>
