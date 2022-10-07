@@ -43,8 +43,9 @@ nnoremap <leader>tp :action RiderUnitTestRepeatPreviousRunAction<CR>
 nnoremap <leader>ts :action RiderUnitTestFocusSessionAction<CR>
 
 "Navigation
-nnoremap <leader>gi :action GotoDeclaration<CR>
+nnoremap <leader>gd :action GotoDeclaration<CR>
 nnoremap <leader>gb :action Back<CR>
+nnoremap <leader>gi :action ReSharperGotoImplementation<CR>
 nnoremap <leader>gf :action Forward<CR>
 nnoremap <leader>ne :action ReSharperGotoNextErrorInSolution<CR>
 nnoremap <leader>pe :action ReSharperGotoPrevErrorInSolution<CR>
