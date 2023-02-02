@@ -25,6 +25,9 @@ nnoremap <leader>se :action ActivateProjectToolWindow<CR>
 nnoremap <leader>sf :action SelectInProjectView<CR>
 nnoremap <leader>ss :action ActivateStructureToolWindow<CR>
 nnoremap <leader>sb :action ShowBookmarks<CR>
+nnoremap <leader>sr :action ActivateRunToolWindow<CR>
+nnoremap <leader>sp :action ActivateProblemsViewToolWindow<CR>
+nnoremap <leader>sq :action Jdbc.OpenConsole.Any<CR>
 nnoremap <leader>sn :action ActivatenpmToolWindow<CR>
 nnoremap <leader>db :action ActivateDatabaseToolWindow<CR>
 nnoremap <leader>ep :action ActivateEndpointsToolWindow<CR>
@@ -73,6 +76,9 @@ nnoremap <leader>sc :action ActivateTerminalToolWindow<CR>
 nnoremap <leader>nc :action TerminalNewSession<CR>
 nnoremap <leader>fu :action FindUsages<CR>
 nnoremap <leader>su :action ActivateFindToolWindow<CR>
+
+"VCS
+nnoremap <leader>ga :action Annotate<CR>
 
 "Markdown
 nnoremap <leader>mdex :action org.intellij.plugins.markdown.fileActions.export.MarkdownExportAction<CR>
