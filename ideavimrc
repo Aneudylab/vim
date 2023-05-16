@@ -44,6 +44,8 @@ nnoremap <leader>td :action RiderUnitTestDebugContextAction<CR>
 nnoremap <leader>te :action RiderUnitTestFocusExplorerAction<CR>
 nnoremap <leader>tp :action RiderUnitTestRepeatPreviousRunAction<CR>
 nnoremap <leader>ts :action RiderUnitTestFocusSessionAction<CR>
+nnoremap <leader>tc :action RiderUnitTestRunCurrentSessionAction<CR>
+nnoremap <leader>ct :action RiderUnitTestSessionAbortAction<CR>
 
 "Navigation
 nnoremap <leader>gd :action GotoDeclaration<CR>
@@ -76,6 +78,7 @@ nnoremap <leader>sc :action ActivateTerminalToolWindow<CR>
 nnoremap <leader>nc :action TerminalNewSession<CR>
 nnoremap <leader>fu :action FindUsages<CR>
 nnoremap <leader>su :action ActivateFindToolWindow<CR>
+nnoremap <leader>json :action RiderPasteJsonAsClasses<CR>
 
 "VCS
 nnoremap <leader>ga :action Annotate<CR>
